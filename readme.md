@@ -4,7 +4,7 @@
 ## Adımlar
 - Görüntüyü yükler ve bulanıklaştırır.
 - Canny algoritması ile kenarları tespit eder.
-- ```cv.findContours() fonkisyonu ile konturlar tespit edilir.
+- ```cv.findContours()``` fonkisyonu ile konturlar tespit edilir.
 - A4 kağıdı konturunu cv.
 - Kağıt konturunu arar ```cv.approxPolyDP()``` fonksiyonu ile köşe sayısını, ```cv.contourArea()``` fonksiyonu ile de kapladığı alanı kontrol eder.
 - ```cv.approxPolyDP()``` fonksiyonu ile alınan köşe noktalarını çizip "corner.jpg" olarak dosya dizinine kaydeder.
